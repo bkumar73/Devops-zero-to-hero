@@ -35,3 +35,5 @@ Ans: Regularly run `terraform plan` in your CI/CD pipeline to detect differences
 Ques 6: What are the benefits of organizing a Terraform project using modules/workspaces?
 Ans: Modules enable code reuse by creating standardized infrastructure templates that can be shared across teams and projects. Workspaces help manage multiple environments (dev, staging, prod) with the same code while keeping their states separate - reducing duplication and ensuring consistency. 
      This structure makes it easier to maintain large infrastructure, enforce standards, and make global changes efficiently. The combination also improves collaboration as teams can work on different modules independently.
+
+Ques 7: How you will create multiple instance by calling same module.
